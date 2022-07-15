@@ -1,0 +1,16 @@
+{
+  "name": "hangman",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "aws-sdk": "^2.1174.0",
+    "random-words": "^1.2.0",
+    "tiny-json-http": "^7.4.2"
+  },
+  "scripts": {
+    "setup": "node-lambda setup",
+    "test": ".ode-lambda run",
+    "package": "rm -f dist/* && node-lambda package -A dist",
+    "deploy": "node-lambda deploy"
+  }
+}

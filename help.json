@@ -1,0 +1,27 @@
+{
+    "blocks": [{
+            "type": "section",
+            "text": {
+                "type": "mrkdwn",
+                "text": "Hello 👋 Hangman is a guessing game for one or more players. The bot thinks of a word, phrase or sentence and the other(s) tries to guess it by suggesting letters within a certain number of guesses.\n\nHere's how to play."
+            }
+        },
+        {
+            "type": "divider"
+        },
+        {
+            "type": "section",
+            "text": {
+                "type": "mrkdwn",
+                "text": "`/hangman help` Displays this message."
+            }
+        },
+        {
+            "type": "section",
+            "text": {
+                "type": "mrkdwn",
+                "text": "`/hangman start` Starts a new game. Each channel can only have one game running at a time."
+            }
+        }
+    ]
+}
